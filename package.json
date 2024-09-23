@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "json-server -p3001 --watch db.json"
+    "server": "json-server -p3001 --watch db.json",
+    "start": "node server.js"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
@@ -31,5 +32,9 @@
     "globals": "^15.9.0",
     "json-server": "^1.0.0-beta.2",
     "vite": "^5.4.0"
-  }
+  },
+  "description": "nothing",
+  "main": "eslint.config.js",
+  "author": "",
+  "license": "ISC"
 }
